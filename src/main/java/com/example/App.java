@@ -3,4 +3,7 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Hello from my packaged Maven JAR!");
     }
+    {
+        System.out.println("Hello not from my packaged Maven JAR!");
+    }
 }
